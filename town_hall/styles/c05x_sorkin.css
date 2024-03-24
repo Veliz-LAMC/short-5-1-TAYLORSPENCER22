@@ -1,4 +1,45 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    width: 650px;
+    margin: auto;
+    border: 10px double blue;
+    background-color: white;
+    padding: 1em;
 }
+html {background-color: yellow;}
+
+/*styles for the main*/
+main {padding: 1em;}
+img {float: left;
+margin-right: 1.75em;
+margin-bottom: .75em;}
+
+/*styles for heading */
+h1 {font-size: 150%;
+    color: blue}
+h2 {font-size: 125%;
+margin-bottom: -.75em;}
+h3 {font-size: 115%;}
+
+cite { font-style:normal;
+color: blue;}
+
+.cite {text-align: right;
+    margin-bottom:.75em;
+}
+blockquote {text-align: left;
+margin-left: auto;
+margin-right: 1em;
+line-height: 1.5;}
+
+/*styles for the footer*/
+footer {border-top: 5px solid blue;
+font-size:90%;
+font-weight: bold;
+text-align: center;
+margin-bottom: -1em;
+}
+
+/*styles for line spacing elements*/
+ul {line-height: 1.5;
